@@ -1,7 +1,7 @@
 import Test from "../components/Test";
 
 const LandingPage = () => {
-    return <Test />;
+  return <Test />;
 };
 
 export default LandingPage;
