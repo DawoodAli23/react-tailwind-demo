@@ -1,6 +1,6 @@
 import Banner from "../components/Banner";
 import Navbar from "../components/Navbar";
-import Partners from "../components/Partners";
+import Audit from "../components/Audit";
 import Test from "../components/Test";
 
 const LandingPage = () => {
@@ -8,6 +8,7 @@ const LandingPage = () => {
     <>
       <Navbar />
       <Banner />
+      <Audit />
     </>
   );
 };
