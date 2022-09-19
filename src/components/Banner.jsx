@@ -1,4 +1,5 @@
 import React from "react";
+import Partners from "./Partners";
 
 export default function Banner() {
   return (
@@ -6,7 +7,7 @@ export default function Banner() {
       <div className="w-full bg-[#222222b2] h-[757px]  absolute flex flex-row justify-around items-center">
         <div className="h-[650px] w-[700px] ">
           <h1 className="text-white mx-[100px] my-[100px]">
-            Home <span>></span> SEO <span>></span> SERVICES
+            Home <span>{">"}</span> SEO <span>{">"}</span> SERVICES
           </h1>
           <h1 className="text-5xl w-[500px] font-bold text-white mx-[100px]">
             Get a Complete Audit and Action Plan with SEO Audit Services.
@@ -33,6 +34,7 @@ export default function Banner() {
           <img src={require("../Assets/Images/Banner-IMG.png")}></img>
         </div>
       </div>
+      <Partners />
     </>
   );
 }
